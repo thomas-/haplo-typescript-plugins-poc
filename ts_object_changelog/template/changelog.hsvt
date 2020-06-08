@@ -1,0 +1,24 @@
+pageTitle("Changelog")
+backLink(std:object:url(object))
+
+if(viewCount) { "Viewcount: " viewCount }
+
+each(changelog) {
+    <h3>std:date:time(datetime) " by " if(user) { user.name } else { "SYSTEM" }</h3>
+    <ul>
+    switch(action) {}
+    "create" {
+        <li> "Created object" </li>
+    }
+    "update" {
+        each(changes) {
+            if(added) {
+            <li> "Added " object_changelog:attribute_name(attribute) ": " valueString </li>        
+            }
+            if(removed) {
+            <li> "Removed " object_changelog:attribute_name(attribute) ": " valueString </li>        
+            }
+        }
+    }
+    </ul>
+}

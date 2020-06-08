@@ -1,0 +1,14 @@
+{
+  "pluginName": "ts_object_changelog",
+  "pluginAuthor": "github.com/thomas-",
+  "pluginVersion": 1,
+  "displayName": "Typescript: Object Changelog",
+  "displayDescription": "Typescript proof of concept plugin implementing a simple object changelog",
+  "installSecret": "803804f179bdeb0b1d13fc1b08e66d2feee81174",
+  "apiVersion": 4,
+  "privilegesRequired": ["pDatabase"],
+  "load": [
+      "js/bundle.js"
+    ],
+  "respond": ["/do/ts-object-changelog"]
+}

@@ -1,0 +1,13 @@
+{
+"compilerOptions": {
+  "allowJs": true,
+  "checkJs": true,
+  "noEmit": true,
+  "typeRoots": ["../node_modules/@types", "../typings"],
+  "noImplicitAny": false,
+  "removeComments": false
+},
+"include": [
+  "js/**/*.js"
+]
+}

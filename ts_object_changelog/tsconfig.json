@@ -1,0 +1,13 @@
+{
+"compilerOptions": {
+  "typeRoots": ["../node_modules/@types", "../typings"],
+  "target": "es5",
+  "outDir": "js/",
+  "noImplicitAny": true,
+  "strictNullChecks": true,
+  "removeComments": false
+},
+"files": [
+  "ts/index.ts"
+]
+}
